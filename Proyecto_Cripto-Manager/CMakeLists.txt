@@ -15,6 +15,9 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Core)
 add_executable(Proyecto_Cripto-Manager
   main.cpp
   archivomanager.h archivomanager.cpp
+  Cifrador.h
+  Cesar.h
+  Cesar.cpp
 )
 target_link_libraries(Proyecto_Cripto-Manager PRIVATE Qt${QT_VERSION_MAJOR}::Core)
 
