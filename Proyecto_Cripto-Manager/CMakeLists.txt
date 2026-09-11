@@ -18,6 +18,11 @@ add_executable(Proyecto_Cripto-Manager
   Cifrador.h
   Cesar.h
   Cesar.cpp
+  Xor.h
+  Xor.cpp
+  vigenere.h vigenere.cpp
+  usuario.h usuario.cpp
+  historial.h historial.cpp
 )
 target_link_libraries(Proyecto_Cripto-Manager PRIVATE Qt${QT_VERSION_MAJOR}::Core)
 
